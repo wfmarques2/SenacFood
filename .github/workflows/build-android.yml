@@ -34,7 +34,7 @@ jobs:
              yarn install
       - name: Build application
         run: |
-             cd .android
+             cd android
              ./gradlew assembleDebug
       - name: Upload application
         uses: actions/upload-artifact@v2
