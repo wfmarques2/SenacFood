@@ -7,7 +7,8 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "postinstall": "jetify"
   },
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.11",
@@ -29,11 +30,11 @@
     "eslint": "^8.10.0",
     "jest": "^27.5.1",
     "metro-react-native-babel-preset": "^0.69.0",
-    "react-test-renderer": "17.0.2"
+    "react-test-renderer": "17.0.2",
     "jetifier": "2.0.0"
   },
   "jest": {
     "preset": "react-native"
   }
-  "postinstall": "jetify"
+  
 }
